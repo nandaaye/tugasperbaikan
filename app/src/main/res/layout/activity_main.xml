@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ninja"
+        tools:srcCompat="@drawable/ninja" />
+
+
+    <EditText
+        android:id="@+id/adus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_design"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Admin atau User"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_design"
+        android:ems="10"
+        android:id="@+id/pass"/>
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/login" android:layout_marginLeft="100dp"
+        android:background="@drawable/buttom"
+        android:layout_marginRight="100dp" android:layout_marginTop="20dp"/>
+
+</LinearLayout>
